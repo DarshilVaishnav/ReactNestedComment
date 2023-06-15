@@ -1,0 +1,32 @@
+.button {
+  top: 50%;
+  background-color: cadetblue;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  min-height: 5px;
+  min-width: 80px;
+}
+
+.button-add {
+  top: 50%;
+  background-color: blue;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  min-height: 5px;
+  min-width: 80px;
+}
+
+.button:hover {
+  background-color: #002ead;
+  transition: 0.6s;
+}
+
+.button-add:hover {
+  background-color: lime;
+  color: black;
+  transition: 0.5s;
+}
